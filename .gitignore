@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+
+# IDE and OS specific files
+.DS_Store
+.idea/
+.vscode/
+
+# Temporary testing files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage reports
+coverage/
+
+# dotenv files (if applicable)
+.env.local
+.env.development
+.env.production
+
+# API keys or other sensitive data
+secrets.json
+
+# End-to-end test reports (if applicable)
+cypress/results/
+
+# Draft files
+*.draft
+
+# Visual Studio Code settings
+settings.json
